@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List-App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body class="mr-0">
+    <div class="vh-100">
+        <div class="main-container h-100 d-flex flex-column" style="font-family: var(--ff)">
+            <img src="images/bg-desktop-light.jpg" alt="" class="img-fluid bg-img">
+            <div class="secondary-container h-50  rounded align-self-center">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h1 class="h1 text-white m-0 fw-bold" style="letter-spacing: 10px;">TODO</h1>
+                    <i class="theme-icon fa-solid fa-moon text-white fs-4"></i>
+                </div>
+
+                <div class="input-container mb-3 w-100 rounded shadow p-3">
+                    <input type="text" class="todo-input w-100 border-0  rounded" placeholder="Create a new todo...">
+                </div>
+
+                <div class="todos-list-container rounded shadow">
+                    <ul class="todo-list m-0 p-0">
+                    </ul>
+
+                    <div class="todo-footer d-flex justify-content-between align-items-center py-2 px-3">
+                        <p class="m-0 todos-left"><span class="todos-left-number">0</span> items left</p>
+
+                        <div class="todo-footer-nav">
+                            <button class="current border-0">
+                                All
+                            </button>
+
+                            <button class="border-0">
+                                Active
+                            </button>
+
+                            <button class="border-0">
+                                Completed
+                            </button>
+                        </div>
+
+                        <button class="border-0 clear-btn">
+                            Clear Completed
+                        </button>
+                    </div>
+
+                </div>                    
+                <div class="todo-footer-nav mb-todo-footer-nav justify-content-around align-items-center rounded shadow p-3 mt-3">
+                        <button class="current border-0">
+                            All
+                        </button>
+
+                        <button class="border-0">
+                            Active
+                        </button>
+
+                        <button class="border-0">
+                            Completed
+                        </button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+</html>
