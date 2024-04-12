@@ -80,13 +80,13 @@ i{
 }
 
 .todo-list::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px var(--dark-grayish-blue)
+    -webkit-box-shadow: inset 0 0 6px var(--white);
     border-radius: 10px;
 }
 
 .todo-list::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px var(--dark-grayish-blue)
+    -webkit-box-shadow: inset 0 0 6px var(--dark-grayish-blue);
 }
 
 .todo
@@ -135,7 +135,7 @@ i{
 
 .todo-footer-nav
 {
-    background-color: transparent
+    background-color: transparent;
 }
 
 .mb-todo-footer-nav
