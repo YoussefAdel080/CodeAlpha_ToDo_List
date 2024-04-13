@@ -170,7 +170,7 @@ function resetTasks()
 
 function setTasksCategory(ele)
 {
-    Array.from($('.todo-footer-nav')[0].children).forEach(cat => {if(cat == ele){ele.classList.add('current')}else{cat.classList.remove('current')}})
+    Array.from(ele.parentElement.children).forEach(cat => {if(cat == ele){ele.classList.add('current')}else{cat.classList.remove('current')}})
     currentTasksCategory = ele.innerText;
 };
 
